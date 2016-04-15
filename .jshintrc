@@ -7,9 +7,9 @@
   "latedef": true,
   "noarg": true,
   "node": true,
-  "strict": true,
-  "undef": true,
-  "unused": true,
+  "strict": false,
+  "undef": false,
+  "unused": false,
   "globals": {
     "angular": false
   }

@@ -1,4 +1,4 @@
-'use strict';
+
 
 /**
  * @ngdoc function
@@ -7,8 +7,7 @@
  * # AboutCtrl
  * Controller of the jsMytodoApp
  */
-angular.module('jsMytodoApp')
-  .controller('AboutCtrl', function () {
+jsMytodoApp.controller('aboutctrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
