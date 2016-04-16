@@ -1,4 +1,3 @@
-
 //Routes
 jsMytodoApp.config(function($routeProvider) {
     $routeProvider

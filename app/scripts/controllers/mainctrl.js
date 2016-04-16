@@ -13,11 +13,11 @@ jsMytodoApp.controller('mainctrl', function($scope, localStorageService) {
 		localStorageService.set('todos', $scope.todos);
 	}, true);
 
-	$scope.todo = "";
+	$scope.todo = '';
 
 	$scope.addTodo = function() {
 		$scope.todos.push($scope.todo);
-		$scope.todo = "";
+		$scope.todo = '';
 	};
 
 	$scope.removeTodo = function(index) {
